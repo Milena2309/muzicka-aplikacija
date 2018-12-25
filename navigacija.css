@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background: #3A5FCD;
+    justify-content: center;
+    padding: 5px;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 0;
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav a:hover {
+    background: #3A5FCD;
+	color: white;
+}
+
+@media(max-width: 600px) {
+    nav {
+        text-align: center;
+        padding-right: 4px 8px;
+    }
+    nav a {
+		margin: 0;
+        display: block;
+        border-bottom: 1px solid black;
+    }
+}

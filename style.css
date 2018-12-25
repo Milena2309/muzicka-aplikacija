@@ -1,7 +1,51 @@
+body,
+header,
+footer,
+label,
+input{
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+}
+
+body {
+  background-color: transparent;
+  padding-bottom: 50px;  
+  background-image: url(slike/note1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 label {
   display: block;
 }
 
 #naslov {
   text-transform: capitalize;
+}
+
+header, footer {
+  background-color: #3A5FCD;
+  overflow: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.vrh-strane {
+  position: fixed;
+  right: 10%;
+  bottom: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+
+.img{
+  max-width: 100%;
 }
